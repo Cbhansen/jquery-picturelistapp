@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SimpleListApp</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<style>
+    #home img {
+        width: 300px;
+        height: auto;
+    }
+    img.fullscreen {
+        max-height:100%;
+        max-width:100%;
+    }
+</style>
+</head>
+<body>
+
+<!-- homepage -->
+<div data-role="page" id="home">
+    <header data-role="header">
+        <h1>Simple jQuery mobile webb app</h1>
+    </header>
+
+    <article data-role="content">
+        <ul data-role="listview" data-filter="true">
+            <li>
+                <a href="#dog">
+                    <h1>Doggy</h1>
+                    <img src="https://static.pexels.com/photos/8700/wall-animal-dog-pet.jpg" alt="doggy">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio doloremque alias numquam tenetur 
+                        consequatur officiis voluptates laborum omnis ratione pariatur non necessitatibus ea, impedit debitis. 
+                        Illo velit nesciunt voluptate optio.</p>
+                </a>
+            </li>
+            <li>
+                <a href="#cat">
+                    <h1>Cat</h1>
+                    <img src="https://static.pexels.com/photos/127028/pexels-photo-127028.jpeg" alt="cat">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio doloremque alias numquam tenetur 
+                        consequatur officiis voluptates laborum omnis ratione pariatur non necessitatibus ea, impedit debitis. 
+                        Illo velit nesciunt voluptate optio.</p>
+                </a>
+            </li>
+            <li>
+                <a href="#monkey">
+                    <h1>Monkey</h1>
+                    <img src="https://static.pexels.com/photos/50582/selfie-monkey-self-portrait-macaca-nigra-50582.jpeg" alt="monkey">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio doloremque alias numquam tenetur 
+                        consequatur officiis voluptates laborum omnis ratione pariatur non necessitatibus ea, impedit debitis. 
+                        Illo velit nesciunt voluptate optio.</p>
+                </a>
+            </li>
+        </ul>
+    </article>
+    
+    <footer data-role="footer" data-position="fixed">
+        <nav data-role="navbar">
+            <ul data-role="footer">
+            <li><a href="#home" data-icon="home">Home</a></li>
+            <li><a href="#info" data-icon="info">Info</a></li>
+        </ul>
+        </nav>
+    </footer>
+</div><!--end of page -->
+
+<!-- info page -->
+<div data-role="page" id="info">
+    <header data-role="header">
+        <h1>Info | Contacts</h1>
+    </header>
+
+    <article data-role="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt qui impedit velit fugit accusamus. 
+            Maxime debitis necessitatibus itaque modi mollitia unde libero temporibus, id distinctio. Provident iure, 
+            dolore distinctio minus.</p>
+    </article>
+    
+    <footer data-role="footer" data-position="fixed">
+        <nav data-role="navbar">
+            <ul data-role="footer">
+            <li><a href="#home" data-icon="home">Home</a></li>
+            <li><a href="#info" data-icon="info">Info</a></li>
+        </ul>
+        </nav>
+    </footer>
+</div><!--end of page -->
+
+<!-- start dog page -->
+<div data-role="page" id="dog">
+    <header data-role="header">
+        <h1>Dog page</h1>
+        <a href="#home" data-icon="grid" data-iconpos="notext">Home</a>
+    </header>
+    <img class="fullscreen" src="https://static.pexels.com/photos/8700/wall-animal-dog-pet.jpg" alt="dog">
+        <footer data-role="footer" data-position="fixed">
+        <nav data-role="navbar">
+            <ul data-role="footer">
+            <li><a href="#home" data-icon="home">Home</a></li>
+            <li><a href="#info" data-icon="info">Info</a></li>
+        </ul>
+        </nav>
+    </footer>
+</div><!--end of page -->
+<!-- start cat page -->
+<div data-role="page" id="cat">
+    <header data-role="header">
+        <h1>Cat page</h1>
+        <a href="#home" data-icon="grid" data-iconpos="notext">Home</a>
+    </header>
+    <img class="fullscreen" src="https://static.pexels.com/photos/127028/pexels-photo-127028.jpeg" alt="cat">
+        <footer data-role="footer" data-position="fixed">
+        <nav data-role="navbar">
+            <ul data-role="footer">
+            <li><a href="#home" data-icon="home">Home</a></li>
+            <li><a href="#info" data-icon="info">Info</a></li>
+        </ul>
+        </nav>
+    </footer>
+</div><!--end of page -->
+<!-- start monkey page -->
+<div data-role="page" id="monkey">
+    <header data-role="header">
+        <h1>Money page</h1>
+        <a href="#home" data-icon="grid" data-iconpos="notext">Home</a>
+    </header>
+    <img class="fullscreen" src="https://static.pexels.com/photos/50582/selfie-monkey-self-portrait-macaca-nigra-50582.jpeg" alt="monkey">
+        <footer data-role="footer" data-position="fixed">
+        <nav data-role="navbar">
+            <ul data-role="footer">
+            <li><a href="#home" data-icon="home">Home</a></li>
+            <li><a href="#info" data-icon="info">Info</a></li>
+        </ul>
+        </nav>
+    </footer>
+</div><!-- end of page -->
+
+    
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script>
+
+</script>
+</body>
+</html>
